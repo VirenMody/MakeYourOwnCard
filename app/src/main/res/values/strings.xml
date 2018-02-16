@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Make Your Own Card</string>
+    <string name="seuss_quote">Today, you are YOU,\n that is truer than TRUE.\n There is NO ONE alive that is youer than YOU!\n - Dr. Seuss</string>
+    <string name="birthday_message">Happy 1st Birthday Arjun!</string>
 </resources>

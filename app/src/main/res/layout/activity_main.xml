@@ -16,29 +16,27 @@
         android:scaleType="centerCrop"
         android:src="@drawable/arjun" />
 
-    <!--TODO fix hardcoded string-->
-    <!--TODO fix padding-->
     <TextView
-        android:id="@+id/birthdayMessage"
+        android:id="@+id/birthday_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:fontFamily="@font/annie_use_your_telescope"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:paddingTop="20dp"
-        android:text="Happy 1st Birthday Arjun!"
+        android:paddingTop="28dp"
         android:textAlignment="center"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="36sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:text="@string/birthday_message" />
 
     <TextView
         android:id="@+id/quote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:paddingBottom="24dp"
+        android:paddingBottom="48dp"
         android:paddingRight="16dp"
         android:paddingLeft="16dp"
         android:textAlignment="center"
@@ -46,17 +44,17 @@
         android:textColor="@android:color/white"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:text="Today, you are YOU,\n that is truer than TRUE.\n There is NO ONE alive that is youer than YOU.\n - Dr. Seuss" />
+        android:text="@string/seuss_quote" />
 
 
     <ImageView
-        android:id="@+id/birthdayQuoteImage"
-        android:src="@drawable/seusshat"
+        android:id="@+id/quote_image"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/seusshat" />
 
 
 </RelativeLayout>
